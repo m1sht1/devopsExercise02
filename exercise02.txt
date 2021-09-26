@@ -1,0 +1,46 @@
+
+mayac@DESKTOP-M1UAOLR MINGW64 ~/Desktop
+$ git clone https://github.com/m1sht1/devopsExercise02.git
+Cloning into 'devopsExercise02'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+mayac@DESKTOP-M1UAOLR MINGW64 ~/Desktop
+$ cd devopsExercise02/
+
+mayac@DESKTOP-M1UAOLR MINGW64 ~/Desktop/devopsExercise02 (master)
+$ ls
+'COMP3104 – Developer Operations.txt'   README.md
+
+mayac@DESKTOP-M1UAOLR MINGW64 ~/Desktop/devopsExercise02 (master)
+$ git add .
+
+mayac@DESKTOP-M1UAOLR MINGW64 ~/Desktop/devopsExercise02 (master)
+$ git commit -m "added header for readme file"
+[master 7e06f7f] added header for readme file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 "COMP3104 \342\200\223 Developer Operations.txt"
+
+mayac@DESKTOP-M1UAOLR MINGW64 ~/Desktop/devopsExercise02 (master)
+$ ^C
+
+mayac@DESKTOP-M1UAOLR MINGW64 ~/Desktop/devopsExercise02 (master)
+$ git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/m1sht1/devopsExercise02.git'
+
+mayac@DESKTOP-M1UAOLR MINGW64 ~/Desktop/devopsExercise02 (master)
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 307 bytes | 307.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/m1sht1/devopsExercise02.git
+   011ac3a..7e06f7f  master -> master
+
+mayac@DESKTOP-M1UAOLR MINGW64 ~/Desktop/devopsExercise02 (master)
+$
