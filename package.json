@@ -1,0 +1,20 @@
+{
+  "name": "devopsExercise02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Warning: no test created yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m1sht1/devopsExercise02.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m1sht1/devopsExercise02/issues"
+  },
+  "homepage": "https://github.com/m1sht1/devopsExercise02#readme"
+}
